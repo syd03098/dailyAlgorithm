@@ -1,0 +1,32 @@
+{
+  "name": "dailyAlgorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/syd03098/dailyAlgorithm.git",
+  "author": "김용호 <yhkim@miridih.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "format": "prettier ./src --write",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "prettier": {
+    "printWidth": 80,
+    "semi": false,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "esbuild": "^0.15.8",
+    "esbuild-jest": "^0.5.0",
+    "jest": "^29.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.3"
+  }
+}
