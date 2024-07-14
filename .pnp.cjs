@@ -42,6 +42,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@types/node", "npm:20.14.10"],\
           ["husky", "npm:8.0.1"],\
           ["prettier", "npm:3.3.3"],\
           ["turbo", "npm:2.0.6"],\
@@ -576,6 +577,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/node", [\
+      ["npm:20.14.10", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-node-npm-20.14.10-5efcbc9009-10c0.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:20.14.10"],\
+          ["undici-types", "npm:5.26.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@vitest/expect", [\
       ["npm:2.0.2", {\
         "packageLocation": "../../.yarn/berry/cache/@vitest-expect-npm-2.0.2-9cf48278dc-10c0.zip/node_modules/@vitest/expect/",\
@@ -934,6 +945,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["daily-algorithm", "workspace:."],\
+          ["@types/node", "npm:20.14.10"],\
           ["husky", "npm:8.0.1"],\
           ["prettier", "npm:3.3.3"],\
           ["turbo", "npm:2.0.6"],\
@@ -2249,6 +2261,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["undici-types", [\
+      ["npm:5.26.5", {\
+        "packageLocation": "../../.yarn/berry/cache/undici-types-npm-5.26.5-de4f7c7bb9-10c0.zip/node_modules/undici-types/",\
+        "packageDependencies": [\
+          ["undici-types", "npm:5.26.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["unique-filename", [\
       ["npm:3.0.0", {\
         "packageLocation": "../../.yarn/berry/cache/unique-filename-npm-3.0.0-77d68e0a45-10c0.zip/node_modules/unique-filename/",\
@@ -2327,6 +2348,45 @@ const RAW_RUNTIME_STATE =
           "terser"\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["virtual:8bd9167a9064c9ee9fcd8fc89b71dfe70b40a2aa3150a63376379faa6ea17335478645585a8babfff108f9933cc26b59fd48dfada4e3caba6bc148900b7c9e82#npm:5.3.3", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-992f0cb4e0/3/.yarn/berry/cache/vite-npm-5.3.3-7061e07df9-10c0.zip/node_modules/vite/",\
+        "packageDependencies": [\
+          ["vite", "virtual:8bd9167a9064c9ee9fcd8fc89b71dfe70b40a2aa3150a63376379faa6ea17335478645585a8babfff108f9933cc26b59fd48dfada4e3caba6bc148900b7c9e82#npm:5.3.3"],\
+          ["@types/less", null],\
+          ["@types/lightningcss", null],\
+          ["@types/node", "npm:20.14.10"],\
+          ["@types/sass", null],\
+          ["@types/stylus", null],\
+          ["@types/sugarss", null],\
+          ["@types/terser", null],\
+          ["esbuild", "npm:0.21.5"],\
+          ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
+          ["less", null],\
+          ["lightningcss", null],\
+          ["postcss", "npm:8.4.39"],\
+          ["rollup", "npm:4.18.1"],\
+          ["sass", null],\
+          ["stylus", null],\
+          ["sugarss", null],\
+          ["terser", null]\
+        ],\
+        "packagePeers": [\
+          "@types/less",\
+          "@types/lightningcss",\
+          "@types/node",\
+          "@types/sass",\
+          "@types/stylus",\
+          "@types/sugarss",\
+          "@types/terser",\
+          "less",\
+          "lightningcss",\
+          "sass",\
+          "stylus",\
+          "sugarss",\
+          "terser"\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["vite-node", [\
@@ -2360,7 +2420,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", null],\
+          ["@types/node", "npm:20.14.10"],\
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
@@ -2382,7 +2442,7 @@ const RAW_RUNTIME_STATE =
           ["tinybench", "npm:2.8.0"],\
           ["tinypool", "npm:1.0.0"],\
           ["tinyrainbow", "npm:1.2.0"],\
-          ["vite", "virtual:4efc4b1302ae7f10ceca245d305847c48c7a17a0d35fd03b7874c1e1a5cb974d1cc461529fb72650f91c8021713e2e7ae2468c5a46b1b9e58b775d41c13607cc#npm:5.3.3"],\
+          ["vite", "virtual:8bd9167a9064c9ee9fcd8fc89b71dfe70b40a2aa3150a63376379faa6ea17335478645585a8babfff108f9933cc26b59fd48dfada4e3caba6bc148900b7c9e82#npm:5.3.3"],\
           ["vite-node", "npm:2.0.2"],\
           ["why-is-node-running", "npm:2.3.0"]\
         ],\
