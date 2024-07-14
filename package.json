@@ -7,9 +7,9 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "turbo test:watch -- --ui",
-    "test": "turbo test --filter=[\"main...HEAD\"]",
+    "test": "turbo test --filter=[\"HEAD\"]",
     "test:main": "turbo test --filter=[\"HEAD^1\"]",
-    "tsc": "turbo type-check --filter=[\"main...HEAD\"]",
+    "tsc": "turbo type-check --filter=[\"HEAD\"]",
     "tsc:main": "turbo type-check --filter=[\"HEAD^1\"]",
     "format": "prettier --write \"**/*.ts\""
   },
