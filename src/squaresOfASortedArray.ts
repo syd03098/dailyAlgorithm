@@ -3,10 +3,10 @@
  * Memory Usage: 49.6 MB, less than 55.88% of TypeScript online submissions for Squares of a Sorted Array.
  */
 export function sortedSquares(nums: number[]): number[] {
-    let result = []
-    for (const num of nums) {
-        result.push(num ** 2)
-    }
+  let result = []
+  for (const num of nums) {
+    result.push(num ** 2)
+  }
 
-    return result.sort((a, b) => a - b)
+  return result.sort((a, b) => a - b)
 }

@@ -7,11 +7,11 @@
  Do not return anything, modify nums in-place instead.
  */
 export function rotate(nums: number[], k: number): number[] {
-    const array = [...nums]
-    for (let i = 0; i < k; i++) {
-        const a = array.pop()
-        array.unshift(a!)
-    }
+  const array = [...nums]
+  for (let i = 0; i < k; i++) {
+    const a = array.pop()
+    array.unshift(a!)
+  }
 
-    return array
+  return array
 }
