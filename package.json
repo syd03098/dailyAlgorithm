@@ -5,15 +5,11 @@
   "author": "김용호 <yhkim@miridih.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --project tsconfig.json",
-    "format": "prettier ./src --write",
-    "test": "CI=true vitest",
-    "test:watch": "vitest --ui",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "turbo test",
+    "test:watch": "turbo test:watch -- --ui",
+    "format": "prettier --write \"**/*.ts\""
   },
-  "files": [
-    "dist"
-  ],
   "prettier": {
     "printWidth": 80,
     "semi": false,
@@ -22,11 +18,14 @@
     "trailingComma": "es5"
   },
   "devDependencies": {
-    "@vitest/ui": "^2.0.2",
     "husky": "^8.0.0",
     "prettier": "^3.3.3",
+    "turbo": "^2.0.6",
     "typescript": "^5.5.3",
     "vitest": "^2.0.2"
   },
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "yarn@4.3.1",
+  "workspaces": [
+    "package/*"
+  ]
 }
