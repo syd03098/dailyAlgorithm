@@ -4,7 +4,8 @@
   "packageManager": "yarn@4.3.1",
   "scripts": {
     "test": "CI=true vitest",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "type-check": "tsc"
   },
   "devDependencies": {
     "@vitest/ui": "^2.0.2",
