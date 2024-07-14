@@ -1,5 +1,6 @@
 {
   "name": "daily-algorithm",
+  "type": "module",
   "repository": "https://github.com/syd03098/dailyAlgorithm.git",
   "author": "김용호 <yhkim@miridih.com>",
   "license": "MIT",
@@ -7,7 +8,7 @@
     "build": "tsc --project tsconfig.json",
     "format": "prettier ./src --write",
     "test": "CI=true vitest",
-    "test:watch": "vitest",
+    "test:watch": "vitest --ui",
     "prepare": "husky install"
   },
   "files": [
@@ -21,6 +22,7 @@
     "trailingComma": "es5"
   },
   "devDependencies": {
+    "@vitest/ui": "^2.0.2",
     "husky": "^8.0.0",
     "prettier": "^3.3.3",
     "typescript": "^5.5.3",
