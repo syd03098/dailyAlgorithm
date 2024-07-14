@@ -1,5 +1,5 @@
 function search(nums: number[], target: number): number {
-  return 0
+  return nums.indexOf(target)
 }
 
 if (import.meta.vitest) {
