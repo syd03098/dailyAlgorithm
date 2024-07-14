@@ -6,8 +6,9 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "test": "turbo test",
-    "test:watch": "turbo test:watch -- --ui",
+    "dev": "turbo test:watch -- --ui",
+    "test": "turbo test --filter=[\"HEAD\"]",
+    "type-check": "turbo type-check --filter=[\"HEAD\"]",
     "format": "prettier --write \"**/*.ts\""
   },
   "prettier": {
