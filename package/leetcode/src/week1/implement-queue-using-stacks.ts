@@ -10,7 +10,7 @@ class MyQueue {
   }
 
   pop(): number {
-    return this.#list.shift()
+    return this.#list.shift() ?? 0
   }
 
   peek(): number {
