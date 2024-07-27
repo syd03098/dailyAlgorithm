@@ -2,7 +2,7 @@ export default class MinHeap<T> {
   protected nodes: Array<T>
 
   constructor(private compare: (a: T, b: T) => number) {
-    this.nodes = new Array()
+    this.nodes = []
   }
 
   public nodeList() {
