@@ -8,7 +8,7 @@
       "cache": false,
       "persistent": true
     },
-    "type-check": {
+    "tsc": {
       "cache": false
     }
   }
