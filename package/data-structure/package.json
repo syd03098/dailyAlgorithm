@@ -1,5 +1,5 @@
 {
-  "name": "util",
+  "name": "data-structure",
   "type": "module",
   "packageManager": "yarn@4.3.1",
   "scripts": {

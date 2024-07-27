@@ -20,17 +20,7 @@ jobs:
         run: yarn
 
       - name: Tests
-        if: ${{github.ref != 'refs/heads/main'}}
         run: yarn run test
 
-      - name: Tests(for main)
-        if: ${{github.ref == 'refs/heads/main'}}
-        run: yarn run test:main
-
       - name: Type-check
-        if: ${{github.ref != 'refs/heads/main'}}
         run: yarn run tsc
-
-      - name: Type-chcek(for main)
-        if: ${{github.ref == 'refs/heads/main'}}
-        run: yarn run tsc:main
